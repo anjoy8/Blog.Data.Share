@@ -1,1 +1,110 @@
-﻿[{"Id":1,"CreateBy":null,"CreateId":null,"CreateTime":"\/Date(1541091085000+0800)\/","IsDeleted":false,"ModifyBy":null,"ModifyId":null,"ModifyTime":"\/Date(1555384451000+0800)\/","RoleId":1,"UserId":4},{"Id":2,"CreateBy":null,"CreateId":null,"CreateTime":"\/Date(1541091085000+0800)\/","IsDeleted":false,"ModifyBy":null,"ModifyId":null,"ModifyTime":"\/Date(1555384451000+0800)\/","RoleId":2,"UserId":3},{"Id":3,"CreateBy":null,"CreateId":null,"CreateTime":"\/Date(1541091085000+0800)\/","IsDeleted":false,"ModifyBy":null,"ModifyId":null,"ModifyTime":"\/Date(1555384451000+0800)\/","RoleId":3,"UserId":7},{"Id":4,"CreateBy":null,"CreateId":23,"CreateTime":"\/Date(1550505206000+0800)\/","IsDeleted":false,"ModifyBy":null,"ModifyId":null,"ModifyTime":"\/Date(1555384451000+0800)\/","RoleId":4,"UserId":12},{"Id":5,"CreateBy":null,"CreateId":1,"CreateTime":"\/Date(1550506844000+0800)\/","IsDeleted":false,"ModifyBy":null,"ModifyId":null,"ModifyTime":"\/Date(1555384451000+0800)\/","RoleId":2,"UserId":1},{"Id":6,"CreateBy":null,"CreateId":1,"CreateTime":"\/Date(1550506854000+0800)\/","IsDeleted":false,"ModifyBy":null,"ModifyId":null,"ModifyTime":"\/Date(1555384451000+0800)\/","RoleId":1,"UserId":1},{"Id":7,"CreateBy":null,"CreateId":13,"CreateTime":"\/Date(1550506913000+0800)\/","IsDeleted":false,"ModifyBy":null,"ModifyId":null,"ModifyTime":"\/Date(1555384451000+0800)\/","RoleId":1,"UserId":2},{"Id":8,"CreateBy":null,"CreateId":19,"CreateTime":"\/Date(1551026285000+0800)\/","IsDeleted":false,"ModifyBy":null,"ModifyId":null,"ModifyTime":"\/Date(1555384451000+0800)\/","RoleId":6,"UserId":8},{"Id":9,"CreateBy":null,"CreateId":24,"CreateTime":"\/Date(1551150919000+0800)\/","IsDeleted":false,"ModifyBy":null,"ModifyId":null,"ModifyTime":"\/Date(1555384451000+0800)\/","RoleId":7,"UserId":13}]
+﻿[
+  {
+    "Id": 1,
+    "CreateBy": null,
+    "CreateId": null,
+    "CreateTime": "\/Date(1541091085000+0800)\/",
+    "IsDeleted": false,
+    "ModifyBy": null,
+    "ModifyId": null,
+    "ModifyTime": "\/Date(1555384451000+0800)\/",
+    "RoleId": 1,
+    "UserId": 4
+  },
+  {
+    "Id": 2,
+    "CreateBy": null,
+    "CreateId": null,
+    "CreateTime": "\/Date(1541091085000+0800)\/",
+    "IsDeleted": false,
+    "ModifyBy": null,
+    "ModifyId": null,
+    "ModifyTime": "\/Date(1555384451000+0800)\/",
+    "RoleId": 2,
+    "UserId": 3
+  },
+  {
+    "Id": 3,
+    "CreateBy": null,
+    "CreateId": null,
+    "CreateTime": "\/Date(1541091085000+0800)\/",
+    "IsDeleted": false,
+    "ModifyBy": null,
+    "ModifyId": null,
+    "ModifyTime": "\/Date(1555384451000+0800)\/",
+    "RoleId": 3,
+    "UserId": 7
+  },
+  {
+    "Id": 4,
+    "CreateBy": null,
+    "CreateId": 23,
+    "CreateTime": "\/Date(1550505206000+0800)\/",
+    "IsDeleted": false,
+    "ModifyBy": null,
+    "ModifyId": null,
+    "ModifyTime": "\/Date(1555384451000+0800)\/",
+    "RoleId": 4,
+    "UserId": 12
+  },
+  {
+    "Id": 5,
+    "CreateBy": null,
+    "CreateId": 1,
+    "CreateTime": "\/Date(1550506844000+0800)\/",
+    "IsDeleted": false,
+    "ModifyBy": null,
+    "ModifyId": null,
+    "ModifyTime": "\/Date(1555384451000+0800)\/",
+    "RoleId": 2,
+    "UserId": 1
+  },
+  {
+    "Id": 6,
+    "CreateBy": null,
+    "CreateId": 1,
+    "CreateTime": "\/Date(1550506854000+0800)\/",
+    "IsDeleted": false,
+    "ModifyBy": null,
+    "ModifyId": null,
+    "ModifyTime": "\/Date(1555384451000+0800)\/",
+    "RoleId": 1,
+    "UserId": 1
+  },
+  {
+    "Id": 7,
+    "CreateBy": null,
+    "CreateId": 13,
+    "CreateTime": "\/Date(1550506913000+0800)\/",
+    "IsDeleted": false,
+    "ModifyBy": null,
+    "ModifyId": null,
+    "ModifyTime": "\/Date(1555384451000+0800)\/",
+    "RoleId": 1,
+    "UserId": 2
+  },
+  {
+    "Id": 8,
+    "CreateBy": null,
+    "CreateId": 19,
+    "CreateTime": "\/Date(1551026285000+0800)\/",
+    "IsDeleted": false,
+    "ModifyBy": null,
+    "ModifyId": null,
+    "ModifyTime": "\/Date(1555384451000+0800)\/",
+    "RoleId": 6,
+    "UserId": 8
+  },
+  {
+    "Id": 9,
+    "CreateBy": null,
+    "CreateId": 24,
+    "CreateTime": "\/Date(1551150919000+0800)\/",
+    "IsDeleted": false,
+    "ModifyBy": null,
+    "ModifyId": null,
+    "ModifyTime": "\/Date(1555384451000+0800)\/",
+    "RoleId": 7,
+    "UserId": 13
+  }
+]
