@@ -9,8 +9,8 @@
     "tRead": 0,
     "tCommend": 0,
     "tGood": 0,
-    "tCreatetime": "2018\/6\/26 15:56:03",
-    "tUpdatetime": "2018\/6\/26 15:56:03",
+    "tCreatetime": "\/Date(1546272000000+0800)\/",
+    "tUpdatetime": "\/Date(1546272000000+0800)\/",
     "Id": 1
   },
   {
@@ -23,8 +23,8 @@
     "tRead": 0,
     "tCommend": 0,
     "tGood": 0,
-    "tCreatetime": "2018\/6\/26 22:42:15",
-    "tUpdatetime": "2018\/6\/26 22:42:15",
+    "tCreatetime": "\/Date(1546272000000+0800)\/",
+    "tUpdatetime": "\/Date(1546272000000+0800)\/",
     "Id": 2
   },
   {
@@ -37,8 +37,8 @@
     "tRead": 0,
     "tCommend": 0,
     "tGood": 0,
-    "tCreatetime": "2018\/7\/9 19:15:43",
-    "tUpdatetime": "2018\/7\/9 19:15:43",
+    "tCreatetime": "\/Date(1546272000000+0800)\/",
+    "tUpdatetime": "\/Date(1546272000000+0800)\/",
     "Id": 3
   },
   {
@@ -51,8 +51,8 @@
     "tRead": 0,
     "tCommend": 0,
     "tGood": 0,
-    "tCreatetime": "2018\/7\/10 23:11:22",
-    "tUpdatetime": "2018\/7\/10 23:11:22",
+    "tCreatetime": "\/Date(1546272000000+0800)\/",
+    "tUpdatetime": "\/Date(1546272000000+0800)\/",
     "Id": 4
   },
   {
@@ -65,8 +65,8 @@
     "tRead": 0,
     "tCommend": 0,
     "tGood": 0,
-    "tCreatetime": "2018\/7\/13 14:14:46",
-    "tUpdatetime": "2018\/7\/13 14:14:46",
+    "tCreatetime": "\/Date(1546272000000+0800)\/",
+    "tUpdatetime": "\/Date(1546272000000+0800)\/",
     "Id": 5
   },
   {
@@ -79,8 +79,8 @@
     "tRead": 0,
     "tCommend": 0,
     "tGood": 0,
-    "tCreatetime": "2018\/7\/17 11:23:26",
-    "tUpdatetime": "2018\/7\/17 11:23:26",
+    "tCreatetime": "\/Date(1546272000000+0800)\/",
+    "tUpdatetime": "\/Date(1546272000000+0800)\/",
     "Id": 6
   },
   {
@@ -93,8 +93,8 @@
     "tRead": 0,
     "tCommend": 0,
     "tGood": 0,
-    "tCreatetime": "2018\/8\/2 23:38:27",
-    "tUpdatetime": "2018\/8\/2 23:38:27",
+    "tCreatetime": "\/Date(1546272000000+0800)\/",
+    "tUpdatetime": "\/Date(1546272000000+0800)\/",
     "Id": 7
   },
   {
@@ -107,8 +107,8 @@
     "tRead": 0,
     "tCommend": 0,
     "tGood": 0,
-    "tCreatetime": "2018\/8\/7 16:12:03",
-    "tUpdatetime": "2018\/8\/7 16:12:03",
+    "tCreatetime": "\/Date(1546272000000+0800)\/",
+    "tUpdatetime": "\/Date(1546272000000+0800)\/",
     "Id": 8
   },
   {
@@ -121,8 +121,8 @@
     "tRead": 0,
     "tCommend": 0,
     "tGood": 0,
-    "tCreatetime": "2018\/8\/7 16:12:03",
-    "tUpdatetime": "2018\/8\/7 16:12:03",
+    "tCreatetime": "\/Date(1546272000000+0800)\/",
+    "tUpdatetime": "\/Date(1546272000000+0800)\/",
     "Id": 9
   },
   {
@@ -135,8 +135,8 @@
     "tRead": 0,
     "tCommend": 0,
     "tGood": 0,
-    "tCreatetime": "2018\/8\/7 16:12:03",
-    "tUpdatetime": "2018\/8\/7 16:12:03",
+    "tCreatetime": "\/Date(1546272000000+0800)\/",
+    "tUpdatetime": "\/Date(1546272000000+0800)\/",
     "Id": 10
   },
   {
@@ -149,8 +149,8 @@
     "tRead": 0,
     "tCommend": 0,
     "tGood": 0,
-    "tCreatetime": "2018\/8\/7 16:12:03",
-    "tUpdatetime": "2018\/8\/7 16:12:03",
+    "tCreatetime": "\/Date(1546272000000+0800)\/",
+    "tUpdatetime": "\/Date(1546272000000+0800)\/",
     "Id": 11
   },
   {
@@ -163,8 +163,8 @@
     "tRead": 0,
     "tCommend": 0,
     "tGood": 0,
-    "tCreatetime": "2018\/8\/7 16:12:03",
-    "tUpdatetime": "2018\/8\/7 16:12:03",
+    "tCreatetime": "\/Date(1546272000000+0800)\/",
+    "tUpdatetime": "\/Date(1546272000000+0800)\/",
     "Id": 12
   },
   {
@@ -177,8 +177,8 @@
     "tRead": 0,
     "tCommend": 0,
     "tGood": 0,
-    "tCreatetime": "2018\/8\/7 16:12:03",
-    "tUpdatetime": "2018\/8\/7 16:12:03",
+    "tCreatetime": "\/Date(1546272000000+0800)\/",
+    "tUpdatetime": "\/Date(1546272000000+0800)\/",
     "Id": 13
   }
 ]
