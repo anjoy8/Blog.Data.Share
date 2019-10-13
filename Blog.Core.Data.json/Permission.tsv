@@ -1320,7 +1320,7 @@
     "IsHide": "0"
   },
   {
-    "Code": "\/Blog\/Detail",
+    "Code": "\/Blog\/Detail\/:id",
     "Name": "博客详情",
     "IsButton": "0",
     "Pid": 29,
