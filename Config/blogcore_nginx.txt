@@ -1,0 +1,204 @@
+
+#user  nobody;
+worker_processes  1;
+
+#error_log  logs/error.log;
+#error_log  logs/error.log  notice;
+#error_log  logs/error.log  info;
+
+#pid        logs/nginx.pid;
+
+
+events {
+    worker_connections  1024;
+}
+
+
+http {
+    include       mime.types;
+    default_type  application/octet-stream;
+	server_names_hash_bucket_size 64; 
+
+    #log_format  main  '$remote_addr - $remote_user [$time_local] "$request" '
+    #                  '$status $body_bytes_sent "$http_referer" '
+    #                  '"$http_user_agent" "$http_x_forwarded_for"';
+
+    #access_log  logs/access.log  main;
+
+    sendfile        on;
+    #tcp_nopush     on;
+
+    #keepalive_timeout  0;
+    keepalive_timeout  600;
+    proxy_read_timeout 600; 
+    proxy_send_timeout 600; 
+
+    #gzip  on;
+
+
+    server {
+        listen       80;
+        server_name  vue.123.com;
+
+        #charset koi8-r;
+
+        #access_log  logs/host.access.log  main;
+
+        location / {
+		try_files $uri $uri/ /index.html;
+
+	  	root  src\demofolder;
+
+            	index  index.html index.htm;
+        }
+
+
+        location /api/ {
+    		proxy_pass http://demo.123.com;
+        }
+        location /images/ {
+    		proxy_pass http://demo.123.com;
+        }
+
+	error_page  404              /404.html;
+        error_page   500 502 503 504  /50x.html;
+        location = /50x.html {
+            root   html;
+        }
+    }
+
+
+
+
+
+
+######################################################################
+
+    server {
+        listen       80;
+        server_name  www.neters.club;
+
+        #charset koi8-r;
+
+        #access_log  logs/host.access.log  main;
+
+        location / {
+	  	root   C:\code\Code\Neters\home;
+
+            	index  index.html index.htm;
+        }
+    }
+
+    server {
+        listen       80;
+        server_name  apk.neters.club;
+
+        #charset koi8-r;
+
+        #access_log  logs/host.access.log  main;
+
+        location / {
+	  	root   html;
+
+            	proxy_pass   http://localhost:8081;
+
+        proxy_http_version 1.1;
+        proxy_set_header Upgrade $http_upgrade;
+        proxy_set_header Connection keep-alive;
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_cache_bypass $http_upgrade;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+
+            	index  index.html index.htm;
+        }
+    }
+
+    server {
+        listen       80;
+        server_name  vueadmin.neters.club;
+
+        location / {
+	    try_files $uri $uri/ /index.html;
+            root   C:\code\Code\Blog.Admin\dist;
+            index  index.html index.htm;
+        }
+
+        location /api/ {
+            	rewrite  ^.+apb/?(.*)$ /$1 break;
+                include  uwsgi_params;
+    		proxy_pass http://localhost:8081;
+   		proxy_http_version 1.1;
+    		proxy_set_header Upgrade $http_upgrade;
+    		#proxy_set_header Connection "upgrade";
+    		#proxy_set_header Host $host;
+        }
+        location /api2/ {
+            	rewrite  ^.+apb/?(.*)$ /$1 break;
+                include  uwsgi_params;
+    		proxy_pass http://localhost:8081;
+   		proxy_http_version 1.1;
+    		proxy_set_header Upgrade $http_upgrade;
+    		proxy_set_header Connection "upgrade";
+    		proxy_set_header Host $host;
+        }
+
+        error_page  404              /404.html;
+
+        # redirect server error pages to the static page /50x.html
+        #
+        error_page   500 502 503 504  /50x.html;
+        location = /50x.html {
+            root   html;
+        }
+    }
+
+    server {
+        listen       80;
+        server_name  tibug.neters.club;
+
+        #charset koi8-r;
+
+        #access_log  logs/host.access.log  main;
+
+        location / {
+	  	root   html;
+
+            	proxy_pass   http://localhost:3089;
+
+            	index  index.html index.htm;
+        }
+    }
+
+
+    server {
+        listen       80;
+        server_name  vueblog.neters.club;
+
+        location / {
+	    try_files $uri $uri/ /index.html;
+            root   C:\code\Code\Blog.Vue\dist;
+            index  index.html index.htm;
+        }
+
+
+        location /api {
+            rewrite  ^.+apb/?(.*)$ /$1 break;
+               include  uwsgi_params;
+            proxy_pass   http://localhost:8081; 
+        }
+
+        error_page  404              /404.html;
+
+        # redirect server error pages to the static page /50x.html
+        #
+        error_page   500 502 503 504  /50x.html;
+        location = /50x.html {
+            root   html;
+        }
+    }
+
+ 
+
+
+}
